@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .responsive {
+    @apply lg:max-w-screen-lg lg:m-auto xl:max-w-screen-xl xl:m-auto 2xl:max-w-screen-2xl 2xl:m-auto;
+  }
+  .alert-border {
+    border-right: 5px solid #6c6c6c;
+  }
+}
